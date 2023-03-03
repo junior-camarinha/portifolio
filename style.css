@@ -173,3 +173,25 @@ body{
 }
 
 /* FIM PROJECT */
+
+/* INICIO RODADE */
+footer{
+  width: 100%;
+  background-color: #181818;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+footer a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer p{
+  margin-left: 12px;
+}
+
+/* FIM RODADE */
