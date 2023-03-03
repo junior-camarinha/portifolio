@@ -17,6 +17,9 @@ body{
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  z-index: 9;
 }
 
 .nav-list{
@@ -114,3 +117,59 @@ body{
 }
 
 /* FIM ABOUT */
+
+/* INICIO PROJECT */
+
+.projects{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+  
+}
+
+.projects h2{
+  font-size: 32px;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+.projects p{
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.project-list{
+  width: 100%;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects img{
+  width: 22%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  opacity: 0.8;
+  transition: 0.9s;
+}
+
+.projects img:hover{
+  opacity: 1;
+}
+
+.action{
+  background-color: #181818;
+  border: 0;
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+/* FIM PROJECT */
